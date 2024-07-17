@@ -2,25 +2,36 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <link href="a1.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <h1> Sign Up</h1>
-    <form>
-        <input type="text" name="FirstName" placeholder="FirstName" />
-        <input type="text" name="LastName" placeholder="LastName" />
-        <input type="number" name="mobileno" placeholder="Mobile Number" />
-        <input type="email" name="email" placeholder="Email Address" />
-        <input type="password" name="password" placeholder="Password" />
+    <div id="contain">
+        <h1> Sign Up</h1>
+        <form>
+            <input type="text" name="FirstName" placeholder="FirstName" />
+            <input type="text" name="LastName" placeholder="LastName" />
+            <input type="number" name="mobileno" placeholder="Mobile Number" />
+            <input type="email" name="email" placeholder="Email Address" />
+            <input type="password" name="password" placeholder="Password" />
 
-        <input type="password" name="confirm_password" placeholder="Confirm Password" />
-        <input type="checkbox">I Agree</input>
-        <p>By clicking the Register, you agree to the <a href="">Terms and Conditions</a> set out by this site,
-            including our Cookie Use.</p>
-        <input type="submit" name="register">Register</input>
-        <button name="signin">Sign In</button>
-    </form>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" />
+            <div>
+                <input type="checkbox">I Agree</input>
+
+            </div>
+            <div>By clicking <label id="special">Register</label>, you agree to the <a href="">Terms and
+                    Conditions</a>
+                set out by this site,
+                including our Cookie Use.</div>
+
+            <input type="submit" name="register" value="Register"></input>
+            <input type="button" value="Sign In"></input>
+
+        </form>
+    </div>
 </body>
 
 </html>
